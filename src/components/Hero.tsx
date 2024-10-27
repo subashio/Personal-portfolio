@@ -5,8 +5,9 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { motion } from "framer-motion";
 import { opacityAnimation } from "@/constants/animation";
 
-const word1 = `Passionate about crafting beautiful, high-performance websites and web apps with a sharp focus on design and flawless user experiences.`;
-const word2 = `Hello👋,I'm Subash and I'm a`;
+// const word1 =
+//   "Passionate about crafting beautiful, high-performance websites and web apps with a sharp focus on design and flawless user experiences.";
+// const word2 = "Hello👋,I'm Subash and I'm a";
 
 export default function HeroSection() {
   return (
@@ -19,7 +20,7 @@ export default function HeroSection() {
           className="bg-gradient-to-tr"
           duration={1}
           filter={false}
-          words={word2}
+          words="Hello👋,I'm Subash and I'm a"
         />
         <motion.h1
           variants={opacityAnimation}
@@ -37,13 +38,8 @@ export default function HeroSection() {
           className="text-xs"
           duration={0.5}
           filter={false}
-          words={word1}
+          words="Passionate about crafting beautiful, high-performance websites and web apps with a sharp focus on design and flawless user experiences."
         />
-        {/* <p className="relative z-20 max-w-sm whitespace-pre-line bg-gradient-to-b from-neutral-200 to-neutral-400 bg-clip-text text-center text-xs font-bold text-transparent md:max-w-lg">
-          Passionate about crafting beautiful, high-performance websites and web
-          apps with a sharp focus on design and flawless user experiences.
-        </p> */}
-
         <motion.div
           variants={opacityAnimation}
           initial="initial"
