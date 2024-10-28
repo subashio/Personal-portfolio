@@ -12,8 +12,11 @@ const fontSans = FontSans({
   fallback: ["Arial", "sans-serif"],
 });
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Personal portfolio for professional useage",
+  title: "Subash | Full-Stack Web Developer ",
+  description:
+    "Explore Subash's full-stack portfolio showcasing innovative UI/UX designs, front-end and back-end projects, and expertise in web development technologies. Ideal for clients and recruiters seeking impactful, design-focused solutions.",
+  keywords:
+    "Subash portfolio, full-stack developer, web developer, UI/UX design, front-end development, back-end development, React.js, Next.js, Tailwind CSS, JavaScript, TypeScript, MongoDB, Express.js, professional portfolio",
 };
 export default function RootLayout({
   children,
