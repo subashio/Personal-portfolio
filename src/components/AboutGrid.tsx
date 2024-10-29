@@ -36,7 +36,7 @@ export default function AboutGrid({ title, description, spanText }: TItem) {
   return (
     <div className="relative z-20 transition duration-200">
       <div className="relative mb-2 mt-2 flex flex-col items-start justify-start gap-2">
-        <div className="flex w-full flex-wrap justify-between gap-y-4">
+        <div className="flex w-full flex-wrap justify-between gap-x-2 gap-y-4">
           <div className="flex gap-2">
             <p className="flex cursor-pointer items-center justify-start rounded-full bg-gradient-to-l from-[#5251513a] to-[#55545442] p-1.5 pr-4 text-xs transition-all duration-300 hover:scale-105">
               <Dot className="ml-0 scale-150 text-teal-400" /> Available To Work
