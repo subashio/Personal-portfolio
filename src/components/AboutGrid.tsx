@@ -35,27 +35,30 @@ const items = [
 export default function AboutGrid({ title, description, spanText }: TItem) {
   return (
     <div className="relative z-20 transition duration-200">
-      <Link
-        className="absolute right-1 top-1 z-20 flex cursor-pointer items-center justify-center gap-1.5 rounded-lg bg-slate-400/30 p-1.5 pl-3 text-sm shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all duration-300 hover:scale-105"
-        href="/Subash_Resume_.pdf"
-        target="_blank"
-        download
-      >
-        Resume
-        <Download className="h-6 w-8 p-1" />
-      </Link>
       <div className="relative mb-2 mt-2 flex flex-col items-start justify-start gap-2">
-        <div className="flex gap-2">
-          <p className="flex cursor-pointer items-center justify-start rounded-full bg-gradient-to-l from-[#5251513a] to-[#55545442] p-1.5 pr-4 text-xs transition-all duration-300 hover:scale-105">
-            <Dot className="ml-0 scale-150 text-teal-400" /> Available To Work
-          </p>
+        <div className="flex w-full flex-wrap justify-between gap-y-4">
+          <div className="flex gap-2">
+            <p className="flex cursor-pointer items-center justify-start rounded-full bg-gradient-to-l from-[#5251513a] to-[#55545442] p-1.5 pr-4 text-xs transition-all duration-300 hover:scale-105">
+              <Dot className="ml-0 scale-150 text-teal-400" /> Available To Work
+            </p>
+            <Link
+              href="https://github.com/Git-Subash"
+              className="flex items-center justify-start gap-2 rounded-full bg-gradient-to-l from-[#5251513a] to-[#55545442] p-1.5 pr-4 text-xs transition-all duration-300 hover:scale-105"
+            >
+              <ArrowUpRight className="w-4 text-teal-400" /> GitHub
+            </Link>
+          </div>
           <Link
-            href="https://github.com/Git-Subash"
-            className="flex items-center justify-start gap-2 rounded-full bg-gradient-to-l from-[#5251513a] to-[#55545442] p-1.5 pr-4 text-xs transition-all duration-300 hover:scale-105"
+            className="flex cursor-pointer items-center justify-center gap-1.5 rounded-lg bg-slate-400/30 p-1.5 pl-3 text-sm shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all duration-300 hover:scale-105"
+            href="/Subash_Resume_.pdf"
+            target="_blank"
+            download
           >
-            <ArrowUpRight className="w-4 text-teal-400" /> GitHub
+            Resume
+            <Download className="h-6 w-8 p-1" />
           </Link>
         </div>
+
         <h1 className="mt-2 bg-transparent bg-gradient-to-br from-neutral-400 to-neutral-200 bg-clip-text text-5xl font-bold tracking-wide text-transparent">
           {title}
         </h1>
