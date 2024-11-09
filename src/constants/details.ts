@@ -192,7 +192,7 @@ export const projects = [
   },
   {
     id: 2,
-    href: "https://sp-international-company.vercel.app/",
+    href: "https://spintls.com/",
     title: "Landing Page- SP International",
     subTitle: "Innovative Landing Experience - 2024",
     img: "/p2.png",
