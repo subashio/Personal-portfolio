@@ -50,7 +50,7 @@ export default function AboutGrid({ title, description, spanText }: TItem) {
           </div>
           <Link
             className="flex cursor-pointer items-center justify-center gap-1.5 rounded-lg bg-slate-400/30 p-1.5 pl-3 text-sm shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all duration-300 hover:scale-105"
-            href="/Subash_Resume_.pdf"
+            href="/Subash_Resume.pdf"
             target="_blank"
             download
           >
