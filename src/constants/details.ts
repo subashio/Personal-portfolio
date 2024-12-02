@@ -159,6 +159,45 @@ export const stack2: TStacks[] = [
 export const projects = [
   {
     id: 1,
+    href: "https://github.com/Git-Subash/E-Commerce-Website",
+    title: "E-Commerce-Website",
+    subTitle: "Built with React & Express - 2024",
+    img: "/p5.png",
+    logos: [
+      {
+        id: 1,
+        image: "/logos/reactlogo.svg",
+      },
+      {
+        id: 2,
+        image: "/logos/taillogo.svg",
+      },
+      {
+        id: 3,
+        image: "/logos/shadlogo.png",
+      },
+      {
+        id: 4,
+        image: "/logos/tslogo.png",
+      },
+      {
+        id: 5,
+        image: "/logos/expresslogo.png",
+      },
+
+      {
+        id: 6,
+        image: "/logos/jslogo.png",
+      },
+
+      {
+        id: 7,
+        image: "/logos/mongologo.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
     href: "https://github.com/Git-Subash/Company_website",
     title: "Landing Page-Fibonacci",
     subTitle: "Modern & Dynamic Design - 2024",
@@ -191,7 +230,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     href: "https://spintls.com/",
     title: "Landing Page- SP International",
     subTitle: "Innovative Landing Experience - 2024",
@@ -220,7 +259,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     href: "https://gokulfolio.netlify.app/",
     title: "Portfolio Page",
     subTitle: "A Modern Designer's Showcase - 2023",
@@ -248,8 +287,9 @@ export const projects = [
       },
     ],
   },
+
   {
-    id: 4,
+    id: 5,
     href: "https://react-mern-todoapp.netlify.app/",
     title: "Todo Apllication",
     subTitle: "Built with React & MongoDB - 2023",

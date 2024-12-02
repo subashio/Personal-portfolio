@@ -37,7 +37,7 @@ export default function Projects() {
               </h1>
               <p className="max-w-sm text-xs text-gray-200">{item.subTitle}</p>
             </div>
-            <div className="absolute left-0 top-2 my-2 ml-2 flex w-full flex-row items-center justify-start gap-1 transition-all duration-300 group-hover:translate-x-0 sm:-translate-x-36">
+            <div className="absolute left-0 top-2 my-2 ml-2 flex w-full flex-row items-center justify-start gap-1 transition-all duration-300 group-hover:translate-x-0 sm:-translate-x-44">
               <Avatars items={item.logos} />
             </div>
 

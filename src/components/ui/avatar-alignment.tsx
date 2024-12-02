@@ -35,7 +35,7 @@ export const Avatars = ({
             width={100}
             src={item.image}
             alt="image"
-            className="relative !m-0 h-8 w-8 rounded-full border-2 bg-slate-900 object-cover object-top p-2 transition duration-500 group-hover:z-30 group-hover:scale-105"
+            className="relative !m-0 h-8 w-8 rounded-full border-2 bg-slate-900 object-cover object-top p-1.5 transition duration-500 group-hover:z-30 group-hover:scale-105"
           />
         </div>
       ))}
