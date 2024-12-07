@@ -27,10 +27,10 @@ export default function Projects() {
           >
             <img
               src={item.img}
-              className="h-80 w-full rounded-xl object-contain p-2 transition-all duration-300 group-hover:opacity-65 group-hover:shadow-[rgba(12,117,255,0.31)_0px_3px_8px] md:h-[240px]"
+              className="h-80 w-full rounded-xl object-contain p-2 transition-all duration-300 group-hover:opacity-65 group-hover:shadow-[rgb(100,20,203)_0px_3px_8px] md:h-[240px]"
               alt="project"
             />
-            <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-[#0c75ff4f] via-transparent to-black p-4 transition-all duration-500 group-hover:opacity-100 sm:opacity-0">
+            <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-[#750cff4f] via-transparent to-black p-4 transition-all duration-500 group-hover:opacity-100 sm:opacity-0">
               <h1 className="flex items-center justify-start text-lg font-bold text-white">
                 {item.title}
                 <ArrowUpRight className="h-10 w-10 rotate-12 p-3" />

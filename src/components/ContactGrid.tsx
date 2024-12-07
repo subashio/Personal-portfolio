@@ -7,7 +7,7 @@ export default function Stacks({ title, description }: TItem) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("9344497929").then(() => {
+    navigator.clipboard.writeText("6379319612").then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000); // Reset message after 2 seconds
     });

@@ -21,7 +21,7 @@ const items = [
     logo: <Languages className="text-p h-4 w-4 stroke-sky-500 text-sky-500" />,
   },
   {
-    name: "FullStack Web Developer",
+    name: "Software Developer",
     logo: <Flag className="text-p h-4 w-4 stroke-sky-500 text-sky-500" />,
   },
   {
@@ -42,7 +42,7 @@ export default function AboutGrid({ title, description, spanText }: TItem) {
               <Dot className="ml-0 scale-150 text-teal-400" /> Available To Work
             </p>
             <Link
-              href="https://github.com/Git-Subash"
+              href="https://github.com/AravindBaranitharan"
               className="flex items-center justify-start gap-2 rounded-full bg-gradient-to-l from-[#5251513a] to-[#55545442] p-1.5 pr-4 text-xs transition-all duration-300 hover:scale-105"
             >
               <ArrowUpRight className="w-4 text-teal-400" /> GitHub
@@ -50,7 +50,7 @@ export default function AboutGrid({ title, description, spanText }: TItem) {
           </div>
           <Link
             className="flex cursor-pointer items-center justify-center gap-1.5 rounded-lg bg-slate-400/30 p-1.5 pl-3 text-sm shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all duration-300 hover:scale-105"
-            href="/Subash_Resume_.pdf"
+            href="/Resume.pdf"
             target="_blank"
             download
           >
@@ -59,7 +59,7 @@ export default function AboutGrid({ title, description, spanText }: TItem) {
           </Link>
         </div>
 
-        <h1 className="mt-2 bg-transparent bg-gradient-to-br from-neutral-400 to-neutral-200 bg-clip-text text-5xl font-bold tracking-wide text-transparent">
+        <h1 className="mt-2 bg-transparent bg-gradient-to-br from-neutral-400 to-neutral-200 bg-clip-text text-4xl font-bold tracking-wide text-transparent">
           {title}
         </h1>
         <p className="my-2 text-center text-sm font-semibold text-neutral-300">

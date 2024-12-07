@@ -43,7 +43,7 @@ export default function Services() {
             }}
             custom={index}
             key={item.id}
-            className="group relative cursor-pointer overflow-hidden rounded-lg border border-transparent bg-transparent bg-gradient-to-tr from-[#09172938] to-[#0c75ff4f] hover:shadow-[rgba(12,117,255,0.31)_0px_3px_8px]"
+            className="group relative cursor-pointer overflow-hidden rounded-lg border border-transparent bg-transparent bg-gradient-to-tr from-[#1a092938] to-[#4605644f] hover:shadow-[rgb(100,20,203)_0px_3px_8px]"
           >
             <div className="flex h-[200px] flex-col justify-between rounded-md p-6">
               <img

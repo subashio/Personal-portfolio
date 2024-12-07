@@ -10,9 +10,9 @@ const items: TItem[] = [
   {
     customGrid: (
       <AboutGrid
-        title="Subash M"
-        description="I’m a Fullstack "
-        spanText="Web Developer"
+        title="Aravind Baranitharan "
+        description="I’m a "
+        spanText="Software Developer"
       />
     ),
     className: "md:col-span-2  md:row-span-1 md:col-start-1   md:row-start-1 ",

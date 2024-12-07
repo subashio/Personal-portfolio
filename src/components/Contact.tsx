@@ -69,7 +69,7 @@ export default function Contact() {
       id="Contact"
       className="relative w-full bg-transparent py-20 bg-grid-white/[0.05]"
     >
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#020223]/100 [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]" />
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#0B031F]/100 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)]" />
       <div className="z-20 mx-auto mb-10 flex max-w-[58rem] flex-col items-center space-y-4 text-center">
         <h2 className="font-heading z-20 bg-gradient-to-b from-neutral-100 to-neutral-500 bg-clip-text text-4xl font-bold leading-[1.1] text-transparent sm:text-4xl md:text-6xl">
           Let's Work Together
@@ -161,7 +161,7 @@ export default function Contact() {
             <Button
               disabled={form.formState.isSubmitting}
               type="submit"
-              className="hover:border-sky-450 group my-8 inline-flex h-12 w-full cursor-pointer place-content-center justify-center gap-2 rounded-lg border-2 border-transparent bg-sky-500 px-5 py-3 text-center text-sm font-medium text-primary-foreground shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-500 hover:bg-[#0c75ff4f] hover:text-white sm:w-auto"
+              className="hover:border-sky-450 group my-8 inline-flex h-12 w-full cursor-pointer place-content-center justify-center gap-2 rounded-lg border-2 border-transparent bg-purple-900 px-5 py-3 text-center text-sm font-medium text-primary-foreground text-white shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-500 hover:bg-[#8a0cff4f] sm:w-auto"
             >
               Send Message
               {form.formState.isSubmitting && (

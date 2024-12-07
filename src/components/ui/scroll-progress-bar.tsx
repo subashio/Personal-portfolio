@@ -84,7 +84,7 @@ export default function ScrollProgressBar({
               r="30"
               pathLength="1"
               stroke={color}
-              fill="#0c75ff7a"
+              fill="#750cff7a"
               strokeDashoffset="0"
               strokeWidth={strokeSize}
               style={{ pathLength: scrollYProgress }}
@@ -92,7 +92,7 @@ export default function ScrollProgressBar({
           </svg>
           {showPercentage && (
             <span className="absolute ml-2 bg-[]">
-              {<ArrowUpFromDot color="#3e8bf0" className="mr-2 w-20" />}
+              {<ArrowUpFromDot color="#7c3ef0" className="mr-2 w-20" />}
             </span>
           )}
         </>

@@ -2,12 +2,12 @@ export const socials = [
   {
     id: 1,
     logo: "/logos/github-icon.svg",
-    href: "https://github.com/Git-Subash",
+    href: "https://github.com/AravindBaranitharan",
   },
   {
     id: 2,
     logo: "/logos/link.svg",
-    href: "https://www.linkedin.com/in/subash-dev/",
+    href: "https://www.linkedin.com/in/aravind-baranitharan-b4b273227/",
   },
 
   {
@@ -20,45 +20,38 @@ export const socials = [
 export const cardArr: TCard[] = [
   {
     id: 1,
-    name: "Full-Stack Development",
+    name: "Machine Learning Solutions",
     description:
-      "Building interactive front-ends and managing back-ends to bring ideas to life.",
-    logo: "/logos/fullstack-icon.svg",
+      "Crafting intelligent models to solve complex problems, drive automation, and unlock data-driven insights.",
+    logo: "/logos/ml.svg",
   },
   {
     id: 2,
-    name: "Landing Page Design",
+    name: "Custom Web Development",
     description:
-      "Building custom landing pages that look great and work smoothly for users.",
-    logo: "/logos/landing-page-icon.svg",
+      "Creating visually appealing, responsive, and user-friendly websites tailored to meet business goals.",
+    logo: "/logos/fullstack-icon.svg",
   },
   {
     id: 3,
-    name: "Responsive Design",
+    name: "API Integration & Development",
     description:
-      "Designing layouts that work smoothly on any device for a better user experience.",
-    logo: "/logos/responsive-icon.svg",
-  },
-  {
-    id: 4,
-    name: "API Integration",
-    description:
-      "Setting up APIs to enable easy data exchange and communication between services.",
+      "Seamlessly connecting systems and applications with secure and scalable APIs for enhanced functionality.",
     logo: "/logos/api-icon.svg",
   },
   {
-    id: 5,
-    name: "Frameworks",
+    id: 4,
+    name: "Large Language Model (LLM) Solutions",
     description:
-      "Using React and Next.js to build modern, fast, and responsive web applications.",
-    logo: "/logos/framework-icon.svg",
+      "Designing and fine-tuning LLMs to power conversational AI, content generation, and business automation.",
+    logo: "/logos/llm.svg",
   },
   {
-    id: 6,
-    name: "Database Integration",
+    id: 5,
+    name: "Innovative Product Development",
     description:
-      "Connecting databases to manage and access data effectively in applications.",
-    logo: "/logos/database.svg",
+      "Transforming ideas into impactful products by integrating cutting-edge technologies like ML, AI, and LLM.",
+    logo: "/logos/fullstack-icon.svg",
   },
 ];
 
@@ -69,45 +62,26 @@ export const stack1: TStacks[] = [
     className: "h-12",
     stackLogo: "/logos/jslogo.png",
   },
+  { id: 2, name: "C", className: "h-12", stackLogo: "/logos/clogo.svg" },
   {
-    id: 2,
-    name: "TypeScript",
-    className: "h-12",
-    stackLogo: "/logos/tslogo.png",
-  },
-  { id: 3, name: "Java", className: "h-12", stackLogo: "/logos/javalogo.svg" },
-  { id: 4, name: "C", className: "h-12", stackLogo: "/logos/clogo.svg" },
-  {
-    id: 5,
+    id: 3,
     name: "Python",
     className: "h-12",
     stackLogo: "/logos/pythonlogo.svg",
   },
-  { id: 6, name: "HTML5", className: "h-12", stackLogo: "/logos/htmllogo.svg" },
-  { id: 7, name: "CSS3", className: "h-12", stackLogo: "/logos/csslogo.svg" },
+  { id: 4, name: "HTML5", className: "h-12", stackLogo: "/logos/htmllogo.svg" },
+  { id: 5, name: "CSS3", className: "h-12", stackLogo: "/logos/csslogo.svg" },
   {
-    id: 8,
+    id: 6,
     name: "React.js",
     className: "h-12",
     stackLogo: "/logos/reactlogo.svg",
   },
   {
-    id: 9,
+    id: 7,
     name: "Next.js",
     className: "h-12",
     stackLogo: "/logos/nextlogo.svg",
-  },
-  {
-    id: 10,
-    name: "MongoDB",
-    className: "h-12",
-    stackLogo: "/logos/mongologo.svg",
-  },
-  {
-    id: 11,
-    name: "Express.js",
-    className: "h-12",
-    stackLogo: "/logos/expresslogo.png",
   },
 ];
 export const stack2: TStacks[] = [
@@ -117,24 +91,7 @@ export const stack2: TStacks[] = [
     className: "h-12",
     stackLogo: "/logos/taillogo.svg",
   },
-  {
-    id: 2,
-    name: "Shadcn/ui",
-    className: "h-12",
-    stackLogo: "/logos/shadlogo.png",
-  },
-  {
-    id: 3,
-    name: "Headless/ui",
-    className: "h-12",
-    stackLogo: "/logos/headlogo.png",
-  },
-  {
-    id: 4,
-    name: "Material/ui",
-    className: "h-12",
-    stackLogo: "/logos/muilogo.png",
-  },
+
   {
     id: 5,
     name: "Framer Motion",
@@ -159,10 +116,43 @@ export const stack2: TStacks[] = [
 export const projects = [
   {
     id: 1,
-    href: "https://github.com/Git-Subash/E-Commerce-Website",
+    href: "https://github.com/AravindBaranitharan/Decors_Web",
+    title: "Decors_Web",
+    subTitle: "Modern & Dynamic Design - 2024",
+    img: "/p2.jpg",
+    logos: [
+      {
+        id: 1,
+        image: "/logos/nextlogo.svg",
+      },
+      {
+        id: 2,
+        image: "/logos/shadlogo.png",
+      },
+      {
+        id: 3,
+        image: "/logos/tslogo.png",
+      },
+      {
+        id: 4,
+        image: "/logos/clerk-logo.jpg",
+      },
+      {
+        id: 5,
+        image: "/logos/framelogo.svg",
+      },
+      {
+        id: 6,
+        image: "/logos/convex-logo.png",
+      },
+    ],
+  },
+  {
+    id: 2,
+    href: "https://github.com/AravindBaranitharan/harizon-frontend1-main",
     title: "E-Commerce-Website",
     subTitle: "Built with React & Express - 2024",
-    img: "/p5.png",
+    img: "/p1.png",
     logos: [
       {
         id: 1,
@@ -197,44 +187,11 @@ export const projects = [
     ],
   },
   {
-    id: 2,
-    href: "https://github.com/Git-Subash/Company_website",
-    title: "Landing Page-Fibonacci",
-    subTitle: "Modern & Dynamic Design - 2024",
-    img: "/p1.png",
-    logos: [
-      {
-        id: 1,
-        image: "/logos/nextlogo.svg",
-      },
-      {
-        id: 2,
-        image: "/logos/shadlogo.png",
-      },
-      {
-        id: 3,
-        image: "/logos/tslogo.png",
-      },
-      {
-        id: 4,
-        image: "/logos/clerk-logo.jpg",
-      },
-      {
-        id: 5,
-        image: "/logos/framelogo.svg",
-      },
-      {
-        id: 6,
-        image: "/logos/convex-logo.png",
-      },
-    ],
-  },
-  {
     id: 3,
-    href: "https://spintls.com/",
-    title: "Landing Page- SP International",
+    href: "https://github.com/AravindBaranitharan/primesite-main",
+    title: "Primesite-A startup Website",
     subTitle: "Innovative Landing Experience - 2024",
-    img: "/p2.png",
+    img: "/p3.jpg",
     logos: [
       {
         id: 1,
@@ -260,10 +217,10 @@ export const projects = [
   },
   {
     id: 4,
-    href: "https://gokulfolio.netlify.app/",
-    title: "Portfolio Page",
+    href: "https://github.com/AravindBaranitharan/Local_GPT",
+    title: "Offline Chat-GPT",
     subTitle: "A Modern Designer's Showcase - 2023",
-    img: "/p3.png",
+    img: "/p5.jpg",
     logos: [
       {
         id: 1,
@@ -290,10 +247,43 @@ export const projects = [
 
   {
     id: 5,
-    href: "https://react-mern-todoapp.netlify.app/",
-    title: "Todo Apllication",
+    href: "https://github.com/AravindBaranitharan/aura-med",
+    title: "Flutter-App for Care-Taker",
     subTitle: "Built with React & MongoDB - 2023",
-    img: "/p4.png",
+    img: "/p4.jpg",
+    logos: [
+      {
+        id: 1,
+        image: "/logos/reactlogo.svg",
+      },
+      {
+        id: 2,
+        image: "/logos/muilogo.png",
+      },
+      {
+        id: 3,
+        image: "/logos/jslogo.png",
+      },
+      {
+        id: 4,
+        image: "/logos/taillogo.svg",
+      },
+      {
+        id: 5,
+        image: "/logos/mongologo.svg",
+      },
+      {
+        id: 6,
+        image: "/logos/expresslogo.png",
+      },
+    ],
+  },
+  {
+    id: 6,
+    href: "https://github.com/AravindBaranitharan/tamilnadu_city_picker-main",
+    title: "App For Admk",
+    subTitle: "Built with React & MongoDB - 2023",
+    img: "/p6.jpg",
     logos: [
       {
         id: 1,
