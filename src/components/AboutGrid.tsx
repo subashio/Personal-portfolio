@@ -42,7 +42,7 @@ export default function AboutGrid({ title, description, spanText }: TItem) {
               <Dot className="ml-0 scale-150 text-teal-400" /> Available To Work
             </p>
             <Link
-              href="https://github.com/Git-Subash"
+              href="https://github.com/subashio"
               className="flex items-center justify-start gap-2 rounded-full bg-gradient-to-l from-[#5251513a] to-[#55545442] p-1.5 pr-4 text-xs transition-all duration-300 hover:scale-105"
             >
               <ArrowUpRight className="w-4 text-teal-400" /> GitHub
