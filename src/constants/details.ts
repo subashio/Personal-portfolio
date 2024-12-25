@@ -2,7 +2,7 @@ export const socials = [
   {
     id: 1,
     logo: "/logos/github-icon.svg",
-    href: "https://github.com/Git-Subash",
+    href: "https://github.com/subashio/",
   },
   {
     id: 2,
