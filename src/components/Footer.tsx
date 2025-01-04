@@ -1,5 +1,6 @@
 import { socials } from "@/constants/details";
 import { Mail, Phone } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -18,7 +19,9 @@ export default function Footer() {
       <nav className="flex justify-center gap-6 pt-6">
         {socials.map((item) => (
           <Link key={item.id} href={item.href}>
-            <img
+            <Image
+              width={100}
+              height={100}
               src={item.logo}
               alt="subash portfoilo socials logos"
               className="h-6 w-6 text-white"

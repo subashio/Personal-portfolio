@@ -21,8 +21,8 @@ export const BentoGrid = ({
 
 export const BentoGridItem = ({
   className,
-  imgClassName,
-  img,
+  // imgClassName,
+  // img,
   customGrid,
 }: TItem) => {
   return (
@@ -34,7 +34,7 @@ export const BentoGridItem = ({
     >
       {customGrid}
 
-      <div className="absolute left-0 top-0 h-full w-full">
+      {/* <div className="absolute left-0 top-0 h-full w-full">
         {img && (
           <img
             src={img}
@@ -45,7 +45,7 @@ export const BentoGridItem = ({
             )}
           />
         )}
-      </div>
+      </div> */}
     </div>
   );
 };

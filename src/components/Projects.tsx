@@ -2,6 +2,7 @@ import { projects } from "@/constants/details";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { Avatars } from "./ui/avatar-alignment";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -19,32 +20,38 @@ export default function Projects() {
         </p>
       </div>
       <div className="grid max-w-7xl justify-center gap-4 px-2.5 sm:grid-cols-2 md:grid-cols-2 md:px-8 lg:grid-cols-3">
-        {projects.map((item) => (
-          <Link
-            href={item.href}
+        {projects.map((item: any) => (
+          <article
             key={item.id}
             className="group relative overflow-hidden rounded-xl border border-transparent shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all duration-300"
           >
-            <img
-              src={item.img}
-              className="h-80 w-full rounded-xl object-contain p-2 transition-all duration-300 group-hover:opacity-65 group-hover:shadow-[rgba(12,117,255,0.31)_0px_3px_8px] md:h-[240px]"
-              alt={`subash portfoio project image ${item.img}`}
-            />
-            <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-[#0c75ff4f] via-transparent to-black p-4 transition-all duration-500 group-hover:opacity-100 sm:opacity-0">
-              <h1 className="flex items-center justify-start text-lg font-bold text-white">
-                {item.title}
-                <ArrowUpRight className="h-10 w-10 rotate-12 p-3" />
-              </h1>
-              <p className="max-w-sm text-xs text-gray-200">{item.subTitle}</p>
-            </div>
-            <div className="absolute left-0 top-2 my-2 ml-2 flex w-full flex-row items-center justify-start gap-1 transition-all duration-300 group-hover:translate-x-0 sm:-translate-x-44">
-              <Avatars items={item.logos} />
-            </div>
+            <Link href={item.href}>
+              <Image
+                src={item.img}
+                width={500}
+                height={100}
+                layout="responsive"
+                className="h-80 rounded-xl object-contain p-2 transition-all duration-300 group-hover:opacity-65 group-hover:shadow-[rgba(12,117,255,0.31)_0px_3px_8px] md:h-[240px]"
+                alt={`subash portfoio project image ${item.img}`}
+              />
+              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-[#0c75ff4f] via-transparent to-black p-4 transition-all duration-500 group-hover:opacity-100 sm:opacity-0">
+                <h1 className="flex items-center justify-start text-lg font-bold text-white">
+                  {item.title}
+                  <ArrowUpRight className="h-10 w-10 rotate-12 p-3" />
+                </h1>
+                <p className="max-w-sm text-xs text-gray-200">
+                  {item.subTitle}
+                </p>
+              </div>
+              <div className="absolute left-0 top-2 my-2 ml-2 flex w-full flex-row items-center justify-start gap-1 transition-all duration-300 group-hover:translate-x-0 sm:-translate-x-44">
+                <Avatars items={item.logos} />
+              </div>
 
-            <div className="absolute right-4 top-3 -translate-y-20 rounded-full border bg-card text-card-foreground transition-all duration-200 ease-linear group-hover:flex group-hover:translate-y-0">
-              <ArrowUpRight className="h-10 w-10 rotate-12 p-3" />
-            </div>
-          </Link>
+              <div className="absolute right-4 top-3 -translate-y-20 rounded-full border bg-card text-card-foreground transition-all duration-200 ease-linear group-hover:flex group-hover:translate-y-0">
+                <ArrowUpRight className="h-10 w-10 rotate-12 p-3" />
+              </div>
+            </Link>
+          </article>
         ))}
       </div>
     </section>

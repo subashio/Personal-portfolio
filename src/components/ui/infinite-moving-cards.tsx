@@ -1,5 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -106,8 +107,12 @@ export const InfiniteMovingCards = ({
                     item.className,
                   )}
                 >
-                  <img
-                    src={item.stackLogo}
+                  <Image
+                    width={100}
+                    height={100}
+                    src={
+                      item.stackLogo || "stack image used for subash portfolio"
+                    }
                     className="h-5 w-5"
                     alt={`${item.name} - stack image used for subash portfolio`}
                   />
@@ -126,10 +131,13 @@ export const InfiniteMovingCards = ({
                 className="relative overflow-hidden rounded-lg border bg-gradient-to-l from-[#5251513a] to-[#55545442] p-2"
               >
                 <div className="flex h-auto w-[340px] flex-col justify-between gap-2 rounded-md p-6">
-                  <img
+                  <Image
                     width={48}
                     height={48}
-                    src={item.logo}
+                    src={
+                      item.logo ||
+                      "unknown services logo image used for subash portfolio"
+                    }
                     alt={`${item.logo}- services logo image used for subash portfolio`}
                     className="lucide lucide-palette text-sky-500"
                   />

@@ -34,7 +34,7 @@ export default function Navbar() {
   });
   return (
     <AnimatePresence mode="wait">
-      <motion.div
+      <motion.header
         initial={{
           opacity: 1,
           y: -100,
@@ -92,7 +92,7 @@ export default function Navbar() {
         >
           Contact
         </Link>
-      </motion.div>
+      </motion.header>
     </AnimatePresence>
   );
 }

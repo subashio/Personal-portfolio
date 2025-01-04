@@ -5,10 +5,6 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { motion } from "framer-motion";
 import { opacityAnimation } from "@/constants/animation";
 
-// const word1 =
-//   "Passionate about crafting beautiful, high-performance websites and web apps with a sharp focus on design and flawless user experiences.";
-// const word2 = "Hello👋,I'm Subash and I'm a";
-
 export default function HeroSection() {
   return (
     <section className="py-36">

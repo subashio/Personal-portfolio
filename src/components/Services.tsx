@@ -2,6 +2,7 @@
 
 import { cardArr } from "@/constants/details";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const fadeInAnimation = {
   initial: {
@@ -46,10 +47,10 @@ export default function Services() {
             className="group relative cursor-pointer overflow-hidden rounded-lg border border-transparent bg-transparent bg-gradient-to-tr from-[#09172938] to-[#0c75ff4f] hover:shadow-[rgba(12,117,255,0.31)_0px_3px_8px]"
           >
             <div className="flex h-[200px] flex-col justify-between rounded-md p-6">
-              <img
+              <Image
                 width={48}
                 height={48}
-                src={item.logo}
+                src={item.logo || "/unknown"}
                 alt={`${item.logo} subash portfolio image`}
                 className="lucide lucide-palette"
               />
