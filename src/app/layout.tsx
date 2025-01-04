@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   keywords: [
     "subash",
     "Subash",
+    "Subash's",
     "M Subash",
     "M Subash",
     "subash portfolio",

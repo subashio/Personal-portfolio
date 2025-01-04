@@ -10,7 +10,7 @@ export default function Projects() {
       id="Projects"
       className="flex scroll-mt-20 flex-col items-center justify-center py-10"
     >
-      <div className="mx-auto mb-10 flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+      <header className="mx-auto mb-10 flex max-w-[58rem] flex-col items-center space-y-4 text-center">
         <h1 className="font-heading bg-gradient-to-b from-neutral-100 to-neutral-500 bg-clip-text text-4xl font-bold leading-[1.1] text-transparent sm:text-4xl md:text-6xl">
           My Projects
         </h1>
@@ -18,10 +18,16 @@ export default function Projects() {
           A collection of my best work, where design meets functionality to
           solve real-world challenges.
         </p>
-      </div>
-      <div className="grid max-w-7xl justify-center gap-4 px-2.5 sm:grid-cols-2 md:grid-cols-2 md:px-8 lg:grid-cols-3">
+      </header>
+      <div
+        role="grid"
+        aria-label="Grid"
+        className="grid max-w-7xl justify-center gap-4 px-2.5 sm:grid-cols-2 md:grid-cols-2 md:px-8 lg:grid-cols-3"
+      >
         {projects.map((item: any) => (
           <article
+            role="gridcell"
+            aria-label="Bento Grid Item"
             key={item.id}
             className="group relative overflow-hidden rounded-xl border border-transparent shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all duration-300"
           >
@@ -29,9 +35,8 @@ export default function Projects() {
               <Image
                 src={item.img}
                 width={500}
-                height={100}
-                layout="responsive"
-                className="h-80 rounded-xl object-contain p-2 transition-all duration-300 group-hover:opacity-65 group-hover:shadow-[rgba(12,117,255,0.31)_0px_3px_8px] md:h-[240px]"
+                height={300}
+                className="h-80 rounded-xl object-contain transition-all duration-300 group-hover:opacity-65 group-hover:shadow-[rgba(12,117,255,0.31)_0px_3px_8px] md:h-[240px]"
                 alt={`subash portfoio project image ${item.img}`}
               />
               <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-[#0c75ff4f] via-transparent to-black p-4 transition-all duration-500 group-hover:opacity-100 sm:opacity-0">

@@ -3,7 +3,7 @@ import { ClipboardCheck, Crown, Mail, Phone } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function Stacks({ title, description }: TItem) {
+export default function Stacks({ title, description }: GridItem) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -13,7 +13,7 @@ export default function Stacks({ title, description }: TItem) {
     });
   };
   return (
-    <div className="relative z-20 mb-4 flex flex-col items-center justify-center gap-2 transition duration-200">
+    <article className="relative z-20 mb-4 flex flex-col items-center justify-center gap-2 transition duration-200">
       <div className="rounded-full bg-slate-400/50 p-2.5">
         <Crown className="text-sky-400" fill="#38bdf8" />
       </div>
@@ -45,6 +45,6 @@ export default function Stacks({ title, description }: TItem) {
         )}
         {copied ? "Check Clipboard" : "WhatsApp Me"}
       </Link>
-    </div>
+    </article>
   );
 }

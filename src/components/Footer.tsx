@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="relative w-full pt-10">
       <div className="flex flex-col items-center justify-center gap-4">
         <p className="flex cursor-pointer items-center justify-center gap-2">
-          <Mail className="h-6 w-6 text-sky-500" /> subashotherp11@gmail.com{" "}
+          <Mail className="h-6 w-6 text-sky-500" /> subashotherp11@gmail.com
         </p>
         <p className="flex cursor-pointer items-center justify-center gap-2">
           <Phone className="stroke-sk h-5 w-5 text-sky-500" fill="#38bdf8" />

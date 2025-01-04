@@ -1,5 +1,4 @@
 "use client";
-
 import { cn } from "@/lib/utils";
 import {
   motion,
@@ -7,7 +6,7 @@ import {
   useScroll,
   useTransform,
 } from "framer-motion";
-import { ArrowUpFromDot } from "lucide-react";
+import { ArrowUp } from "lucide-react";
 import React from "react";
 
 interface ScrollProgressBarType {
@@ -92,7 +91,7 @@ export default function ScrollProgressBar({
           </svg>
           {showPercentage && (
             <span className="absolute ml-2 bg-[]">
-              {<ArrowUpFromDot color="#3e8bf0" className="mr-2 w-20" />}
+              {<ArrowUp color="#3e8bf0" className="mr-2 w-20" />}
             </span>
           )}
         </>

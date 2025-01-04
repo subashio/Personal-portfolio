@@ -1,9 +1,9 @@
 "use client";
+import { opacityAnimation } from "@/constants/animation";
+import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 import Link from "next/link";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
-import { motion } from "framer-motion";
-import { opacityAnimation } from "@/constants/animation";
 
 export default function HeroSection() {
   return (

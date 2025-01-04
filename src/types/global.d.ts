@@ -13,7 +13,7 @@ export declare global {
     className: string;
     icon: React.JSX.Element;
   };
-  type TItem = {
+  interface GridItem {
     className?: string;
     title?: string | React.ReactNode;
     description?: string | React.ReactNode;
@@ -23,12 +23,22 @@ export declare global {
     icon?: React.ReactNode;
     customGrid?: React.ReactNode;
     spanText?: string;
-  };
+  }
   interface TStacks {
     id: string | number;
     name: string;
     stackLogo: string | undefined;
     className?: string;
+  }
+  interface AboutGridProps {
+    title: string;
+    description: string;
+    spanText: string;
+  }
+  interface ServicesGridProps {
+    icon: React.ReactNode;
+    title: string;
+    description: string;
   }
   interface ContactMessage {
     name: string;

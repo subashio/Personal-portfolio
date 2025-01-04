@@ -1,40 +1,16 @@
 import { container, listItem } from "@/constants/animation";
+import { logoListItem } from "@/constants/data/generalData";
 import { motion } from "framer-motion";
-import {
-  ArrowUpRight,
-  Dot,
-  Download,
-  Flag,
-  GraduationCap,
-  Languages,
-  MapPin,
-} from "lucide-react";
+import { ArrowUpRight, Dot, Download } from "lucide-react";
 import Link from "next/link";
 
-const items = [
-  {
-    name: "India",
-    logo: <MapPin className="h-4 w-4 stroke-sky-500 text-sky-500" />,
-  },
-  {
-    name: "English & Tamil",
-    logo: <Languages className="text-p h-4 w-4 stroke-sky-500 text-sky-500" />,
-  },
-  {
-    name: "FullStack Web Developer",
-    logo: <Flag className="text-p h-4 w-4 stroke-sky-500 text-sky-500" />,
-  },
-  {
-    name: "Recent Graduate",
-    logo: (
-      <GraduationCap className="text-p h-4 w-4 stroke-sky-500 text-sky-500" />
-    ),
-  },
-];
-
-export default function AboutGrid({ title, description, spanText }: TItem) {
+export default function AboutGrid({
+  title,
+  description,
+  spanText,
+}: AboutGridProps) {
   return (
-    <div className="relative z-20 transition duration-200">
+    <article className="relative z-20 transition duration-200">
       <div className="relative mb-2 mt-2 flex flex-col items-start justify-start gap-2">
         <div className="flex w-full flex-wrap justify-between gap-x-2 gap-y-4">
           <div className="flex gap-2">
@@ -72,7 +48,7 @@ export default function AboutGrid({ title, description, spanText }: TItem) {
           viewport={{ once: true }}
           className="mt-3 flex w-full max-w-xl flex-wrap gap-x-6 gap-y-4 rounded-2xl bg-slate-500/30 px-2 py-2 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
         >
-          {items.map((list, index) => (
+          {logoListItem.map((list: any, index: number) => (
             <motion.li
               variants={listItem}
               key={index}
@@ -83,6 +59,6 @@ export default function AboutGrid({ title, description, spanText }: TItem) {
           ))}
         </motion.ul>
       </div>
-    </div>
+    </article>
   );
 }
