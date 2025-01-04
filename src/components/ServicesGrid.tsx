@@ -5,10 +5,10 @@ export default function ServicesGrid({ icon, title, description }: TItem) {
   return (
     <>
       <div className="relative transition duration-200">
-        <div className="mb-2 mt-2 flex items-center justify-center gap-2 bg-transparent bg-gradient-to-br from-neutral-200 to-neutral-600 bg-clip-text font-bold text-transparent">
+        <h1 className="mb-2 mt-2 flex items-center justify-center gap-2 bg-transparent bg-gradient-to-br from-neutral-200 to-neutral-600 bg-clip-text font-bold text-transparent">
           {icon}
           {title}
-        </div>
+        </h1>
         <div className="text-center text-sm font-normal text-neutral-300">
           {description}
         </div>

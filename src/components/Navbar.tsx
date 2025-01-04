@@ -68,7 +68,7 @@ export default function Navbar() {
         </Link>
         <Link
           className="relative px-4 text-xs font-semibold drop-shadow-xl"
-          href="#"
+          href="/"
         >
           <Dot className="absolute -left-1 -top-1" />
           Subash.M

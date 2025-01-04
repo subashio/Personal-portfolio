@@ -10,9 +10,9 @@ export default function Projects() {
       className="flex scroll-mt-20 flex-col items-center justify-center py-10"
     >
       <div className="mx-auto mb-10 flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-        <h2 className="font-heading bg-gradient-to-b from-neutral-100 to-neutral-500 bg-clip-text text-4xl font-bold leading-[1.1] text-transparent sm:text-4xl md:text-6xl">
+        <h1 className="font-heading bg-gradient-to-b from-neutral-100 to-neutral-500 bg-clip-text text-4xl font-bold leading-[1.1] text-transparent sm:text-4xl md:text-6xl">
           My Projects
-        </h2>
+        </h1>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
           A collection of my best work, where design meets functionality to
           solve real-world challenges.

@@ -12,13 +12,19 @@ const fontSans = FontSans({
   fallback: ["Arial", "sans-serif"],
 });
 export const metadata: Metadata = {
-  title: "Subash | Full-Stack Web Developer ",
+  title: "Subash Portfolio | Full-Stack Web Developer ",
   description:
     "Subash, a versatile full-stack web developer, showcases an innovative portfolio featuring UI/UX designs, front-end and back-end projects. Explore impactful web solutions tailored to clients' needs. Visit Subash's portfolio for exceptional web development expertise.",
 
   authors: [{ name: "Subash", url: "https://github.com/subashio" }],
   keywords: [
     "subash",
+    "Subash",
+    "M Subash",
+    "M Subash",
+    "subash portfolio",
+    "Subash Portfolio",
+    "Subash M",
     "Visit Subash's portfolio",
     "Visit Subash portfolio",
     "i am Subash",
@@ -67,14 +73,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full !scroll-smooth">
-      <meta property="og:title" content="Subash | Full-Stack Web Developer" />
-      <meta
-        property="og:description"
-        content="Subash's portfolio featuring UI/UX designs and web solutions."
-      />
-      <meta property="og:url" content="https://subashfolio.site" />
-      <meta property="og:image" content="https://subashfolio.site" />
-      <meta property="og:type" content="website" />
       <body
         className={cn(
           "relative h-full min-h-screen bg-background font-sans antialiased",
