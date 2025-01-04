@@ -38,7 +38,7 @@ export const BentoGridItem = ({
         {img && (
           <img
             src={img}
-            alt={img}
+            alt={`${img}- for subash porfolio`}
             className={cn(
               imgClassName,
               "h-full w-full object-cover object-center",

@@ -28,7 +28,7 @@ export default function Projects() {
             <img
               src={item.img}
               className="h-80 w-full rounded-xl object-contain p-2 transition-all duration-300 group-hover:opacity-65 group-hover:shadow-[rgba(12,117,255,0.31)_0px_3px_8px] md:h-[240px]"
-              alt="project"
+              alt={`subash portfoio project image ${item.img}`}
             />
             <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-[#0c75ff4f] via-transparent to-black p-4 transition-all duration-500 group-hover:opacity-100 sm:opacity-0">
               <h1 className="flex items-center justify-start text-lg font-bold text-white">

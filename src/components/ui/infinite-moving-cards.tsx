@@ -106,7 +106,11 @@ export const InfiniteMovingCards = ({
                     item.className,
                   )}
                 >
-                  <img src={item.stackLogo} className="h-5 w-5" alt="logos" />
+                  <img
+                    src={item.stackLogo}
+                    className="h-5 w-5"
+                    alt={`${item.name} - stack image used for subash portfolio`}
+                  />
                   {item.name}
                 </div>
               </li>
@@ -126,7 +130,7 @@ export const InfiniteMovingCards = ({
                     width={48}
                     height={48}
                     src={item.logo}
-                    alt="image"
+                    alt={`${item.logo}- services logo image used for subash portfolio`}
                     className="lucide lucide-palette text-sky-500"
                   />
                   <div className="space-y-2">

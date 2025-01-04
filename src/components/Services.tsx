@@ -50,7 +50,7 @@ export default function Services() {
                 width={48}
                 height={48}
                 src={item.logo}
-                alt="image"
+                alt={`${item.logo} subash portfolio image`}
                 className="lucide lucide-palette"
               />
               <div className="space-y-2">

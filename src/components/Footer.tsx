@@ -18,7 +18,11 @@ export default function Footer() {
       <nav className="flex justify-center gap-6 pt-6">
         {socials.map((item) => (
           <Link key={item.id} href={item.href}>
-            <img src={item.logo} alt="logos" className="h-6 w-6 text-white" />
+            <img
+              src={item.logo}
+              alt="subash portfoilo socials logos"
+              className="h-6 w-6 text-white"
+            />
           </Link>
         ))}
       </nav>

@@ -14,9 +14,51 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "Subash | Full-Stack Web Developer ",
   description:
-    "Explore Subash's full-stack portfolio showcasing innovative UI/UX designs, front-end and back-end projects, and expertise in web development technologies. Ideal for clients and recruiters seeking impactful, design-focused solutions.",
-  keywords:
-    "Subash portfolio, full-stack developer, web developer, UI/UX design, front-end development, back-end development, React.js, Next.js, Tailwind CSS, JavaScript, TypeScript, MongoDB, Express.js, professional portfolio",
+    "Subash, a versatile full-stack web developer, showcases an innovative portfolio featuring UI/UX designs, front-end and back-end projects. Explore impactful web solutions tailored to clients' needs. Visit Subash's portfolio for exceptional web development expertise.",
+
+  authors: [{ name: "Subash", url: "https://github.com/subashio" }],
+  keywords: [
+    "subash",
+    "Visit Subash's portfolio",
+    "Visit Subash portfolio",
+    "i am Subash",
+    "Subash M",
+    "Subash Developer",
+    "website builder",
+    "website solution",
+    "website developer",
+    "need developer",
+    "Subash portfolio",
+    "full-stack developer",
+    "web developer",
+    "UI/UX design",
+    "UI design",
+    "UX design",
+    "front-end development",
+    "frontend development",
+    "back-end development",
+    "backend development",
+    "React.js developer",
+    "React developer",
+    "Next.js developer",
+    "Next developer",
+    "Tailwind CSS",
+    "JavaScript developer",
+    "js developer",
+    "ts developer",
+    "TypeScript developer",
+    "MongoDB ",
+    "Express developer",
+    "Express.js developer",
+    "professional portfolio developer",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://subashfolio.site",
+  },
 };
 export default function RootLayout({
   children,
@@ -25,6 +67,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full !scroll-smooth">
+      <meta property="og:title" content="Subash | Full-Stack Web Developer" />
+      <meta
+        property="og:description"
+        content="Subash's portfolio featuring UI/UX designs and web solutions."
+      />
+      <meta property="og:url" content="https://subashfolio.site" />
+      <meta property="og:image" content="https://subashfolio.site" />
+      <meta property="og:type" content="website" />
       <body
         className={cn(
           "relative h-full min-h-screen bg-background font-sans antialiased",
