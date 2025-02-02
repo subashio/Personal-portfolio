@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { Toaster } from "@/components/ui/toaster";
+import { description, title } from "@/constants/details";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Manrope as FontSans } from "next/font/google";
@@ -12,11 +13,8 @@ const fontSans = FontSans({
   fallback: ["Arial", "sans-serif"],
 });
 export const metadata: Metadata = {
-  title:
-    "Subash Portfolio - Full-Stack Developer | UI/UX Design & Web Solutions ",
-  description:
-    "Discover Subash's portfolio, a full-stack developer specializing in UI/UX design, front-end, and back-end development. Explore innovative web solutions.",
-
+  title,
+  description,
   authors: [{ name: "Subash", url: "https://github.com/subashio" }],
   keywords: [
     "Subash Portfolio",
@@ -34,14 +32,37 @@ export const metadata: Metadata = {
     "Frontend Development",
     "Backend Development",
   ],
-  robots: {
-    index: true,
-    follow: true,
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_BASE_URL! || "https://subashfolio.site",
+  ),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: process.env.NEXT_PUBLIC_BASE_URL! || "https://subashfolio.site",
+    title,
+    description,
+    siteName: title,
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1733,
+        height: 852,
+        alt: title,
+        type: "image/png",
+      },
+    ],
   },
-  alternates: {
-    canonical: "https://subashfolio.site",
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/opengraph-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
   },
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{

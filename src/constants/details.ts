@@ -1,3 +1,8 @@
+export const title =
+  "Subash Portfolio - Full-Stack Developer | UI/UX Design & Web Solutions";
+export const description =
+  "Discover Subash's portfolio, a full-stack developer specializing in UI/UX design, front-end, and back-end development. Explore innovative web solutions.";
+
 export const socials = [
   {
     id: 1,
