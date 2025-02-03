@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Manrope as FontSans } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const fontSans = FontSans({
   weight: ["300", "400", "500", "700", "200"],
@@ -77,7 +78,10 @@ export default function RootLayout({
         )}
       >
         <main className="relative flex min-h-screen flex-col">
-          <Navbar /> {children} <Toaster />
+          <Navbar />
+          {children}
+          <Analytics />
+          <Toaster />
         </main>
       </body>
     </html>
