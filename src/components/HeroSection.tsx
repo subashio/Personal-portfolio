@@ -9,7 +9,8 @@ export default function HeroSection() {
   return (
     <section className="py-36">
       <div className="absolute left-0 top-0 flex h-screen w-full flex-col items-center justify-center bg-grid-white/[0.05]">
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#020223]/100 [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]" />
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#020223]/100 [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
+        {/* <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#020223]/100 [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]" /> */}
       </div>
       <div className="my-20 flex w-full flex-col items-center justify-center gap-2">
         <TextGenerateEffect

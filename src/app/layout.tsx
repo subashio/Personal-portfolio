@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { description, title } from "@/constants/details";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Manrope as FontSans } from "next/font/google";
+import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -79,6 +79,7 @@ export default function RootLayout({
       >
         <main className="relative flex min-h-screen flex-col">
           <Navbar />
+
           {children}
           <Analytics />
           <Toaster />

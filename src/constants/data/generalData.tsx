@@ -14,7 +14,7 @@ export const logoListItem = [
     logo: <Flag className="text-p h-4 w-4 stroke-sky-500 text-sky-500" />,
   },
   {
-    name: "Recent Graduate",
+    name: "Freelancer",
     logo: (
       <GraduationCap className="text-p h-4 w-4 stroke-sky-500 text-sky-500" />
     ),
