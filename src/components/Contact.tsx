@@ -72,10 +72,10 @@ export default function Contact() {
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#020223]/100 [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]" />
       <header className="z-20 mx-auto mb-10 flex max-w-[58rem] flex-col items-center space-y-4 text-center">
         <h1 className="font-heading z-20 bg-gradient-to-b from-neutral-100 to-neutral-500 bg-clip-text text-4xl font-bold leading-[1.1] text-transparent sm:text-4xl md:text-6xl">
-          Let's Work Together
+          Let&apos;s Work Together
         </h1>
         <p className="z-20 max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-          Contact me let's build ideas into something innovative together
+          Contact me let&apos;s build ideas into something innovative together
         </p>
       </header>
       <Form {...form}>

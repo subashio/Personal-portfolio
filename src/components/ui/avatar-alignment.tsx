@@ -1,7 +1,6 @@
 "use client";
-import { useMotionValue, useSpring, useTransform } from "framer-motion";
+import { useMotionValue } from "framer-motion";
 import Image from "next/image";
-import { useState } from "react";
 
 export const Avatars = ({
   items,
@@ -11,14 +10,14 @@ export const Avatars = ({
     image: string;
   }[];
 }) => {
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-  const springConfig = { stiffness: 100, damping: 5 };
+  // const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  // const springConfig = { stiffness: 100, damping: 5 };s
   const x = useMotionValue(0); // going to set this value on mouse move
   // rotate the tooltip
-  const rotate = useSpring(
-    useTransform(x, [-100, 100], [-45, 45]),
-    springConfig,
-  );
+  // const rotate = useSpring(
+  //   useTransform(x, [-100, 100], [-45, 45]),
+  //   springConfig,
+  // );
   // translate
   const handleMouseMove = (event: any) => {
     const halfWidth = event.target.offsetWidth / 2;

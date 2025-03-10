@@ -1,8 +1,8 @@
 import { projects } from "@/constants/details";
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { Avatars } from "./ui/avatar-alignment";
-import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -24,7 +24,7 @@ export default function Projects() {
         aria-label="Grid"
         className="grid max-w-7xl justify-center gap-4 px-2.5 sm:grid-cols-2 md:grid-cols-2 md:px-8 lg:grid-cols-3"
       >
-        {projects.map((item: any) => (
+        {projects.map((item) => (
           <article
             role="gridcell"
             aria-label="Bento Grid Item"

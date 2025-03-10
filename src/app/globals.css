@@ -21,6 +21,7 @@
       rgb(88, 88, 107) 0deg,
       transparent 40deg
     );
+    /* @apply absolute left-[-20%] top-[-75%] h-[250%] w-[150%] animate-border-spin content-['']; */
     @apply absolute left-[-20%] top-[-75%] h-[250%] w-[150%] animate-border-spin content-[''];
   }
   .card-content {
