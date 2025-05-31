@@ -191,12 +191,48 @@ export const projects = [
       },
     ],
   },
+  // {
+  //   id: 2,
+  //   href: "https://github.com/Git-Subash/E-Commerce-Website",
+  //   title: "E-Commerce-Website",
+  //   subTitle: "Built with React & Express - 2024",
+  //   img: "/p5.png",
+  //   logos: [
+  //     {
+  //       id: 1,
+  //       image: "/logos/reactlogo.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       image: "/logos/taillogo.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       image: "/logos/shadlogo.png",
+  //     },
+
+  //     {
+  //       id: 5,
+  //       image: "/logos/expresslogo.png",
+  //     },
+
+  //     {
+  //       id: 6,
+  //       image: "/logos/jslogo.png",
+  //     },
+
+  //     {
+  //       id: 7,
+  //       image: "/logos/mongologo.svg",
+  //     },
+  //   ],
+  // },
   {
     id: 2,
-    href: "https://github.com/Git-Subash/E-Commerce-Website",
+    href: "https://globogreen.in/",
     title: "E-Commerce-Website",
     subTitle: "Built with React & Express - 2024",
-    img: "/p5.png",
+    img: "/p-5.png",
     logos: [
       {
         id: 1,
@@ -210,10 +246,7 @@ export const projects = [
         id: 3,
         image: "/logos/shadlogo.png",
       },
-      {
-        id: 4,
-        image: "/logos/tslogo.png",
-      },
+
       {
         id: 5,
         image: "/logos/expresslogo.png",
@@ -230,8 +263,81 @@ export const projects = [
       },
     ],
   },
+
   {
     id: 3,
+    href: "https://spintls.com/",
+    title: "Landing Page- SP International",
+    subTitle: "Innovative Landing Experience - 2024",
+    img: "/p2.png",
+    logos: [
+      {
+        id: 1,
+        image: "/logos/nextlogo.svg",
+      },
+      {
+        id: 2,
+        image: "/logos/shadlogo.png",
+      },
+      {
+        id: 3,
+        image: "/logos/tslogo.png",
+      },
+      {
+        id: 4,
+        image: "/logos/taillogo.svg",
+      },
+      {
+        id: 5,
+        image: "/logos/framelogo.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    href: "https://www.figma.com/proto/XOwyhJvXZukzsP6sTqjW8p/TechHive?page-id=17%3A1506&node-id=17-1507&viewport=204%2C1680%2C0.62&t=J8n0C0Tzj2AveWK9-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=17%3A1507",
+    title: "Landing Page Design- TechHive",
+    subTitle: "Modern & Dynamic Design - 2025",
+    img: "/p-7.png",
+    logos: [
+      {
+        id: 1,
+        image: "/logos/figmalogo.png",
+      },
+    ],
+  },
+  {
+    id: 5,
+    href: "https://gokulfolio.netlify.app/",
+    title: "Portfolio Page",
+    subTitle: "A Modern Designer's Showcase - 2023",
+    img: "/p3.png",
+    logos: [
+      {
+        id: 1,
+        image: "/logos/reactlogo.svg",
+      },
+      {
+        id: 2,
+        image: "/logos/headlogo.png",
+      },
+      {
+        id: 3,
+        image: "/logos/jslogo.png",
+      },
+      {
+        id: 4,
+        image: "/logos/taillogo.svg",
+      },
+      {
+        id: 5,
+        image: "/logos/framelogo.svg",
+      },
+    ],
+  },
+
+  {
+    id: 5,
     href: "https://github.com/Git-Subash/Company_website",
     title: "Landing Page-Fibonacci",
     subTitle: "Modern & Dynamic Design - 2024",
@@ -263,66 +369,6 @@ export const projects = [
       },
     ],
   },
-  {
-    id: 4,
-    href: "https://spintls.com/",
-    title: "Landing Page- SP International",
-    subTitle: "Innovative Landing Experience - 2024",
-    img: "/p2.png",
-    logos: [
-      {
-        id: 1,
-        image: "/logos/nextlogo.svg",
-      },
-      {
-        id: 2,
-        image: "/logos/shadlogo.png",
-      },
-      {
-        id: 3,
-        image: "/logos/tslogo.png",
-      },
-      {
-        id: 4,
-        image: "/logos/taillogo.svg",
-      },
-      {
-        id: 5,
-        image: "/logos/framelogo.svg",
-      },
-    ],
-  },
-
-  {
-    id: 5,
-    href: "https://gokulfolio.netlify.app/",
-    title: "Portfolio Page",
-    subTitle: "A Modern Designer's Showcase - 2023",
-    img: "/p3.png",
-    logos: [
-      {
-        id: 1,
-        image: "/logos/reactlogo.svg",
-      },
-      {
-        id: 2,
-        image: "/logos/headlogo.png",
-      },
-      {
-        id: 3,
-        image: "/logos/jslogo.png",
-      },
-      {
-        id: 4,
-        image: "/logos/taillogo.svg",
-      },
-      {
-        id: 5,
-        image: "/logos/framelogo.svg",
-      },
-    ],
-  },
-
   {
     id: 6,
     href: "https://react-mern-todoapp.netlify.app/",
