@@ -248,17 +248,17 @@ export const projects = [
       },
 
       {
-        id: 5,
+        id: 4,
         image: "/logos/expresslogo.png",
       },
 
       {
-        id: 6,
+        id: 5,
         image: "/logos/jslogo.png",
       },
 
       {
-        id: 7,
+        id: 6,
         image: "/logos/mongologo.svg",
       },
     ],
@@ -337,7 +337,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     href: "https://github.com/Git-Subash/Company_website",
     title: "Landing Page-Fibonacci",
     subTitle: "Modern & Dynamic Design - 2024",
@@ -370,7 +370,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     href: "https://react-mern-todoapp.netlify.app/",
     title: "Todo Apllication",
     subTitle: "Built with React & MongoDB - 2023",

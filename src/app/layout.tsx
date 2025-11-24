@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   description,
   authors: [{ name: "Subash", url: "https://github.com/subashio" }],
   keywords: [
+    "Subash",
     "Subash Portfolio",
     "Full-Stack Developer",
     "Web Developer",
@@ -34,12 +35,12 @@ export const metadata: Metadata = {
     "Backend Development",
   ],
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_BASE_URL! || "https://subashfolio.site",
+    process.env.NEXT_PUBLIC_BASE_URL! || "https://subash.site",
   ),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: process.env.NEXT_PUBLIC_BASE_URL! || "https://subashfolio.site",
+    url: process.env.NEXT_PUBLIC_BASE_URL! || "https://subash.site",
     title,
     description,
     siteName: title,
