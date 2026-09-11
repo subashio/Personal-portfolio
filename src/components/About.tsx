@@ -1,4 +1,5 @@
 "use client";
+import { JSX } from "react";
 import { Layers3, LayoutGrid } from "lucide-react";
 import AboutGrid from "./AboutGrid";
 import Stacks from "./Stacks";
