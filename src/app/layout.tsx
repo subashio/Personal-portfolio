@@ -73,8 +73,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full !scroll-smooth">
-      <GoogleTagManager gtmId="G-TGCRK3LLNN" />
-      <GoogleAnalytics gaId="G-TGCRK3LLNN" />
+      <GoogleTagManager gtmId="G-2XY8VGZYZW" />
+      <GoogleAnalytics gaId="G-2XY8VGZYZW" />
       <body
         className={cn(
           "relative h-full min-h-screen bg-background font-sans antialiased",
