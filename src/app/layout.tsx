@@ -73,7 +73,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full !scroll-smooth">
-      <GoogleTagManager gtmId="G-2XY8VGZYZW" />
+      <GoogleTagManager gtmId="G-TGCRK3LLNN" />
       <GoogleAnalytics gaId="G-2XY8VGZYZW" />
       <body
         className={cn(
