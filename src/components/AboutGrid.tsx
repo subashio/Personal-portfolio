@@ -24,7 +24,7 @@ export default function AboutGrid({
               <ArrowUpRight className="w-4 text-teal-400" /> GitHub
             </Link>
           </div>
-          <Link
+          <a
             className="flex cursor-pointer items-center justify-center gap-1.5 rounded-lg bg-slate-400/30 p-1.5 pl-3 text-sm shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all duration-300 hover:scale-105"
             href="/Subash_Resume.pdf"
             target="_blank"
@@ -32,7 +32,7 @@ export default function AboutGrid({
           >
             Resume
             <Download className="h-6 w-8 p-1" />
-          </Link>
+          </a>
         </div>
 
         <h1 className="mt-2 bg-transparent bg-gradient-to-br from-neutral-400 to-neutral-200 bg-clip-text text-5xl font-bold tracking-wide text-transparent">
