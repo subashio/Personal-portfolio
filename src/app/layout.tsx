@@ -73,7 +73,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full !scroll-smooth">
-      <GoogleAnalytics gaId="G-P6LH4G5CPZ" />
       <body
         className={cn(
           "relative h-full min-h-screen bg-background font-sans antialiased",
@@ -88,6 +87,7 @@ export default function RootLayout({
           <Toaster />
         </main>
       </body>
+      <GoogleAnalytics gaId="G-P6LH4G5CPZ" />
     </html>
   );
 }
