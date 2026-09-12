@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
-import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const fontSans = FontSans({
   weight: ["300", "400", "500", "700", "200"],
@@ -73,8 +73,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full !scroll-smooth">
-      <GoogleTagManager gtmId="G-TGCRK3LLNN" />
-      <GoogleAnalytics gaId="G-2XY8VGZYZW" />
       <body
         className={cn(
           "relative h-full min-h-screen bg-background font-sans antialiased",
@@ -83,12 +81,12 @@ export default function RootLayout({
       >
         <main className="relative flex min-h-screen flex-col">
           <Navbar />
-
           {children}
           <Analytics />
           <Toaster />
         </main>
       </body>
+      <GoogleAnalytics gaId="G-2XY8VGZYZW" />
     </html>
   );
 }
