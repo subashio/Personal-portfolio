@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
-// import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/react";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 const fontSans = FontSans({
@@ -83,7 +83,7 @@ export default function RootLayout({
           <Navbar />
 
           {children}
-          {/* <Analytics /> */}
+          <Analytics />
           <Toaster />
         </main>
       </body>
